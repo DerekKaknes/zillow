@@ -1,9 +1,10 @@
 import pprint
 import xml.etree.ElementTree as ET
 import requests
+import env
 
 API_BASE = 'http://www.zillow.com/webservice/GetDeepSearchResults.htm'
-ZWSID = 'X1-ZWz1b5gu59r30r_2uji4'
+ZWSID = env.ZWSID
 
 address = '619 W 142nd St Apt 3'
 city = 'New York'
